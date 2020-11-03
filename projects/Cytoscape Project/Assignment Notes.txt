@@ -1,0 +1,17 @@
+Computational model of riboflavin biosynthesis in B. Subtilis
+
+Mark - 70%
+
+Skills Involved
+
+Cytoscape software
+RuleBender BioNetGen software
+OptFlux3 software
+
+Flux Balance Analysis
+STRING database
+Michaleis-Menten Enzyme Kinetics
+Rule-Based Modelling
+Stochastic Simulation Algorithms
+
+

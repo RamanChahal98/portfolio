@@ -1,0 +1,17 @@
+Exploration of protein FLP-27, using an array of bioinformatics techniques
+
+Mark - 71%
+
+Techniques 
+
+Uniprot
+Blast
+Ensembl 
+FGENESH
+PSI-BLAST
+MSA (T-Coffee/ ClustalOmega)
+GEO
+BUSCA
+3D Model Validation
+Protein-Interaction Networks (STRING)
+Phylogenetic Analysis

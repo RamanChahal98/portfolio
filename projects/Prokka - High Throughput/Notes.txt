@@ -1,0 +1,31 @@
+Whole Genome Assembly of Chlamydia trachomatis and its relative gene expression in Homo sapiens cells post infection
+
+Skills Involved
+
+R programming
+BioMedical Theory
+Data Manipulation and Analysis
+
+Linux Bash Command Line
+Genome Assembly
+Genome Alignment
+Quality Control
+
+
+Genome Assembly/Alignment:
+
+    FASTQ sequence read files were quality control checked using FASTQC
+    Sequence reads were assembled into a de Brujin graph, using velvet advisor and SPAdes.
+    Assembly was evaluated using QUAST to find N25, N50 and N75 statistics
+    Genome was aligned using Burrows-Wheeler Transform, by converting SAM files to BAM files.
+
+
+
+Gene Expression Analysis:
+
+    Expression data analysed using Bioconductor and DESeq2 modules in R.
+    Dispersion (gene wise measure of gene variance count data) were estiamted and MA-plot was produced.
+    Sample distance calculations and Principla Components Analysis (PCA) was conducted.
+    Heat map was generated to visualise the Euclidean distances between samples using gplot R module.
+    The genome was anotated using Prokka and the PLSDB plasmid database.
+
