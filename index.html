@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Header -->
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+        <!-- Icon -->
+          <i class="fas fa-code fa-2x text-primary pb-3"></i>
+          <h5 class="d-inline pl-2 text-#1f2235">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+            <div class="col-3">
+              <a href="#about" class="text-#1f2235 navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-#1f2235 navigation-link">Projects</a>
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-#1f2235 navigation-link">Social Media</a>
+            </div>
+            <div class="col-3">
+              <a
+                href="https://docs.google.com/document/d/1VONefXho4spzAxYzPpNDmMyAlDNDllZZhNTVzHIo5Yo/edit?usp=sharing"
+                target="_blank"
+                class="text-#1f2235 navigation-link"
+                >CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- OLD PROFILE HEADER -->
+    <!-- <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h1 class="text-warning m-heading">Raman Chahal</h1>
+          <h2 class="text-white">Newcastle University Graduate: BSc Biochemistry and MSc Bioinformatics</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src=imgs/profile.jpg
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div> -->
+
+    <!-- MyHead HEADER-->
+    <header class="myhead bg-#1f2235 text-#1f2235 text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Myhead Avatar Image-->
+            <img class="myhead-avatar mb-5" src="imgs/profile.jpg" alt="" />
+            <!-- Myhead Heading-->
+            <h1 class="myhead-heading text-uppercase mb-0">Raman Chahal</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Myhead Subheading-->
+            <p class="myhead-subheading font-weight-light mb-0">Newcastle University Graduate: BSc Biochemistry and MSc Bioinformatics</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-2.5">
+      <div class="row">
+        <div class="col-6 pl-5 pt-5 pb-5">
+          <img src="imgs/theprofile.jpg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-#1f2235">
+          <h3 class="text-#313552">About Me</h3>
+          <p>
+            Graduated with Distinction in <b class="text-primary">Bioinformatics (MSc)</b>
+            in the academic year 2019/2020 at Newcastle University. I have experience with 
+            Python and RStudio and can work in Linux.
+          </p>
+          <br />
+          <p>
+            Having a background in both <b class="text-primary">data science</b>
+            and <b class="text-primary">biochemistry</b> i have gained the 
+            relevant expertise to work in the field of informatics applied to medicine and 
+            biology, but also broader fields which require <b class="text-primary">data analysis</b>.
+          </p>
+          <!-- <button class="btn btn-outline-warning">Learn More</button> -->
+          <a href="#workexp/skills" class="text-#1f2235 navigation-link">Learn More</a>
+          <!-- workexp/skills -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container mt-5 pt-5">
+      <div class="col">
+        <h1 class="text-primary mb-3 pb-2">Skills</h1>
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="mx-3">
+              <h3>Programming</h3>
+              <ul>
+                <li>Python</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" >Experienced</div>
+                </div>
+                <li>RStudio</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" >Experienced</div>
+                </div>
+                <li>Linux</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" >Experienced</div>
+                </div>
+                <li>Machine Learning</li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" >Capable</div>
+                </div>
+                <li>Mathematical modelling</li>
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" >Familiar</div>
+                </div>
+                <li>HTML/CSS Web Development</li>
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" >Familiar</div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="mx-3">
+              <h3>Labratory Skills</h3>
+              <ul>
+                <li>Pipetting</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" >Competent</div>
+                </div>
+                <li>Weighing</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" >Competent</div>
+                </div>
+                <li>Sterilization of lab equipment</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" >Competent</div>
+                </div>
+                <li>Lab safety</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" >Competent</div>
+                </div>
+                <li>Measuring pH</li>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" >Competent</div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Original Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-primary mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/ml.jpg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning Approaches for Biomarker Identification</h5>
+              <p class="card-text">
+                Python | A machine learning approach for the identification of biomarkers in osteoarthritis
+              </p>
+              <a href="project-MLBiomarkers.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/uniprot.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">UniProt protein aligner</h5>
+              <p class="card-text">
+                Python | A python script which aligns the top 5 proteins in a UniProt search. These are visualised as sequences and trees, using ClustalW and PhylIO
+              </p>
+              <a href="project-uniprotMSA.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/prokka.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Whole Genome Assembly/ gene expression analysis of Chlamydia trachomatis in human cells post infection
+                </h5>
+              <p class="card-text">
+                PDF Write-up | Course-work | Mark - 72%
+              </p>
+              <a href="/project-highthroughput.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/ribo.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Computational model of riboflavin biosynthesis in B. Subtilis</h5>
+              <p class="card-text">
+                PDF Write-up | Course-work | Mark - 70%
+              </p>
+              <a href="/project-cytoscape.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/longreads.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bioinformatic challenges of long-read nucleic acid sequencing
+                technologies
+                </h5>
+              <p class="card-text">
+                PDF Write-up | Course-work | Mark - 80%
+              </p>
+              <a href="/project-theoryandpractice1.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/flp.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Exploration of protein FLP-27, using an array of bioinformatics techniques
+                </h5>
+              <p class="card-text">
+                PDF Write-up | Course-work | Mark - 71%<br>
+              </p>
+              <a href="/project-theoryandpractice2.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/dna.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Simple GC Content Calculator</h5>
+              <p class="card-text">
+                Python | GC content calculator for nucleotide sequences.
+              </p>
+              <a href="project-gccalc.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="imgs/aud.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PDF to Audiobook Converter</h5>
+              <p class="card-text">
+                Python | Converts any PDF into an audiobook.
+              </p>
+              <a href="project-pdftoaudio.html" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add Extra Projects -->
+        <!-- <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/photography.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Photography Platform</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/web_scraping.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Manga Scraping Web App</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- WORK EXPERIENCE/SKILLS -->
+    <div id="workexp/skills" class="container mt-5">
+      <div class="row">
+          <div class="col">
+              <h3 class="text-primary mb-3">Work Experience</h3>
+              <div class="card mb-3">
+                  <div class="card-body">
+                      <div class="mx-3">
+                          <h4>Lab Assistant</h4>
+                          <div><strong>2016-2018</strong></div>
+                          Worked as a lab assistant at Newcastle University
+                      </div>
+                  </div>
+              </div>
+              <div class="card mb-3">
+                  <div class="card-body">
+                      <div class="mx-3">
+                          <h4>Linthorpe Surgery Assistant</h4>
+                          <div><strong>2016-2018</strong></div>
+                          Updating patient records for NHS England
+                      </div>
+                      <ul class="list-group list-group-flush mt-2">
+                          <li class="list-group-item">Devloping simple Python scripts</li>
+                          <li class="list-group-item">Devloping simple AHK scripts</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="card mb-3">
+                  <div class="card-body">
+                      <div class="mx-3">
+                          <h4>St John's Ambulance</h4>
+                          <div><strong>2013-2016</strong></div>
+                          Volunteered as a first aider for St John's Ambulance
+                      </div>
+                      <ul class="list-group list-group-flush mt-2">
+                          <li class="list-group-item">First Aid</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <h3 class="text-primary mb-3">Education</h3>
+              <div class="card mb-3">
+                <div class="card-body">
+                    <div class="mx-3">
+                        <h4>Newcastle University</h4>
+                        <div><strong>2016-2020</strong></div>
+                        Bioinformatics (MSC) - Distinction
+                        Biochemistry (BSc) - 2:2 with Honors
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-#1f2235 py-5">
+        <h4 class="text-primary">Social Media</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5">
+          <a class="col-3 media_link btn" href="https://www.linkedin.com/in/ramanchahal98/">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-#1f2235">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a class="col-3 media_link btn" href="https://github.com/RamanChahal98">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-#1f2235">Github</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+
+          <!-- youtube link-->
+          <!-- <a class="col-3 media_link btn" href=#>
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Youtube</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-youtube fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a> -->
+
+          <a class="col-3 media_link bg-warning btn " href="mailto:raman.87rc@gmail.com">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-dark">Email</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Thanks for Reading! |
+          <a class="text-#313552 text-decoration-none" href="#about"
+            >Raman Chahal</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
