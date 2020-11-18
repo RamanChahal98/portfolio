@@ -1,0 +1,131 @@
+/* Global Properties */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  /* background: #1f2235; */
+  body {
+    background: white;
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  /* Navigation */
+  .navigation-link {
+    border: 2px solid transparent;
+  }
+  
+  .navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #1f2235;
+    transition: 0.5s ease;
+  }
+
+  /* Old Header*/
+  /* Main Container height*/
+  .main-container {
+    height: 100vh;
+  }
+  
+  /* Aligning items in main row */
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Changing Name Font sixe */
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  /* Making the main image the size of the screen */
+  .main_row img {
+    width: 100vh;
+    height: 100vh;
+  }
+
+  /* Text  outline */
+  #text-outline {
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: Roboto Slab; color: black;
+  }
+
+  /* theheader (background img) */
+  #theheader {
+    /* background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(imgs/tpbg.jpg); */
+    background: url(imgs/tpbg.jpg);
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-position: center;
+  }
+
+  /* MyHead */
+  .myhead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+  }
+    .myhead-subheading {
+        font-size: 2.0rem;
+    }
+    .myhead-avatar {
+        width: 15rem;
+    }
+    .myhead-heading {
+        font-size: 2.75rem;
+        line-height: 2.75rem;
+    }
+
+  /* About Section */
+  .about {
+    background: #Eff0ee;
+    border-radius: 0.5rem;
+  }
+  
+  .card {
+    border-bottom: 8px solid #313552;
+  }
+
+  .skills {
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+
+  .skills-box {
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .skills-box .fa {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+
+  .skills-box span {
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  
+  /* Social Media Section */
+  #social-media {
+    background: #Eff0ee;
+  }
+  
+  /* Add color to Social Media Links */
+  .media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #313552;
+    border-radius: 0.5rem;
+  }
