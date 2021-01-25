@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Header -->
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="container navigation pt-3">
+    <div class="row">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <!-- Icon -->
+        <i class="fas fa-code fa-2x text-primary pb-3"></i>
+        <h5 class="d-inline pl-2 text-#1f2235">Portfolio</h5>
+      </div>
+      <div class="col-6 pt-2">
+        <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+          <div class="col-3">
+            <a href="/index.html" class="text-#1f2235 navigation-link">Homepage</a>
+          </div>
+          <div class="col-3">
+            <a href="/index.html#projects" class="text-#1f2235 navigation-link">Projects</a>
+          </div>
+          <div class="col-3">
+            <a href="#social-media" class="text-#1f2235 navigation-link">Social Media</a>
+          </div>
+          <div class="col-3">
+            <a href="https://docs.google.com/document/d/1VONefXho4spzAxYzPpNDmMyAlDNDllZZhNTVzHIo5Yo/edit?usp=sharing"
+              target="_blank" class="text-#1f2235 navigation-link">CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Synopsis -->
+  <div class="container">
+    <h1 class="mt-5 mb-3 text-#1f2235">4 Machine Learning models using Linear Regression, Support Vector Machines (SVM), K-Nearest Neighbours (KNN) and K-Means Clustering are outlined with example use cases.</h1>
+    <p class="mt-5 mb-3 text-secondary">This is a mini-project completed during Lockdown with the aim to improve my Machine Learning knowledge and better understand when using a specific model is preferable over another. 
+    </p>
+    <p class="mt-5 mb-3 text-secondary">
+        <b>Linear Regression</b><br>
+        The aim of using this model was to implement a linear regression algorithm to predict students final grade based on a series of attributes (integer attributes), using the Student Performance dataset from UCI Machine Learning Repository.<br>
+        This method attempts to model the relationship between two variables by fitting a linear equation to observed data. One
+        variable is considered to be an explanatory variable, and the other is considered to be a dependent variable.
+
+        It attempts to fit a best-fit line to the data points. Therefore, linear regression isn't really suited with randomly spread data points.
+    </p>
+    <p class="mt-5 mb-3 text-secondary">
+        <b>SVM</b><br>
+        The aim of using this model was to use SVM to classify if a cancer cell is malignant or benign, using the Breast Cancer dataset from Sklearn<br>
+        SVM's are typically used for classification tasks. They work very well for high dimensional data and allow for us to classify data that does not have a
+        linear correspondence.
+
+        A SVM has a large list of applicable uses. However, in machine learning it is typically used for classification.
+        It is a powerful tool that is a good choice for classifying complicated data with a high degree of dimensions(features).
+
+    </p>
+    <p class="mt-5 mb-3 text-secondary">
+        <b>KNN</b><br>
+        The aim of using this model was to use K-Nearest Neighbours algorithm to classify cars into 4 categories based upon certain features, using the Car Evaluation Data Set from the UCI Machine Learning Repository.<br>
+        KNN's are also used for classification tasks. Rather than coming up with a numerical prediction such as a students grade or stock price it attempts to classify data into certain categories. The algorithm works best when we can 
+        identify clusters of points in the dataset, and so typically does not work as well with high-dimensional data. 
+    </p>
+    <p class="mt-5 mb-3 text-secondary">
+        <b>K-Means Clustering</b><br>
+        The aim of using this model was to implement a a K Means algorithm to classify hand written digits, using the Digits dataset from Sklearn.<br>
+        K Means clustering is an unsupervised learning algorithm that attempts to divide our training data into k unique
+        clusters to classify information. This means this algorithm does not require labels for given test data.
+        It is responsible for learning the differences between our data points and determine what features determining what
+        class.
+    </p>
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col">
+          <h3 class="text-primary mb-3">Skills Involved</h3>
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mx-3">
+                <h4>Python</h4>
+                <h4>Machine Learning | Scikit Learn</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- See Code -->
+      <div class="container text-white py-2 mb-4 mt-5">
+        <h4 class="text-primary">See Source Code:</h4>
+        <h1 class="text-secondary m-heading">Available on GitHub</h1>
+        <div class="row">
+          <a class="col-3 media_link btn float-right"
+            href="https://github.com/RamanChahal98/MachineLearningExamples">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-#1f2235">Code</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Social Media Section -->
+      <div id="social-media" class="container-fluid">
+        <div class="container text-#1f2235 py-5">
+          <h4 class="text-primary">Social Media</h4>
+          <h1 class="m-heading">Let's be friends</h1>
+          <div class="row pt-5">
+            <a class="col-3 media_link btn" href="https://www.linkedin.com/in/ramanchahal98/">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-#1f2235">LinkedIn</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+
+            <a class="col-3 media_link btn" href="https://github.com/RamanChahal98">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-#1f2235">Github</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-github fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+
+            <!-- youtube link-->
+            <!-- <a class="col-3 media_link btn" href=#>
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Youtube</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-youtube fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </a> -->
+
+            <a class="col-3 media_link bg-warning btn " href="mailto:raman.87rc@gmail.com">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-dark">Email</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fas fa-envelope fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container text-muted text-center py-3 mt-5">
+          <h5>
+            Thanks for Reading! |
+            <a class="text-#313552 text-decoration-none" href="#about">Raman Chahal</a>
+          </h5>
+        </div>
+      </footer>
+</body>
+
+</html>
